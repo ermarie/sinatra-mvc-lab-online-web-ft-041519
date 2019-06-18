@@ -15,7 +15,6 @@ class PigLatinizer
   end
 
   def latinize(text)
-    binding.pry
     alpha = ('a'..'z').to_a
     vowels = %w[a e i o u A E I O U]
     consonants = alpha - vowels
